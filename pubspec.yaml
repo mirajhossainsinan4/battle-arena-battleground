@@ -1,0 +1,22 @@
+name: battle_arena_battleground
+description: Battle Arena-Battleground - Pro 2D Shooter Game
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flame: ^1.17.0
+  flame_audio: ^2.1.0
+  firebase_core: ^2.24.2
+  firebase_auth: ^4.15.3
+  cloud_firestore: ^4.13.6
+  google_sign_in: ^6.1.6
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/audio/
