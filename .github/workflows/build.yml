@@ -25,7 +25,8 @@ jobs:
       
       - name: Install dependencies
         run: flutter pub get
-      
+      - name: Create Android project
+        run: flutter create .
       - name: Build APK
         run: flutter build apk --release --split-per-abi
       
